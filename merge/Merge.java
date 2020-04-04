@@ -1,7 +1,7 @@
 package merge;
 
 /**
- * Created by xiangchao on 2020/3/19.
+ * Created by xiangchao on 2020/3/19 .
  */
 public class Merge {
     public void sort(int[] data,int left,int right){
