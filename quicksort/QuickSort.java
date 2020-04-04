@@ -1,7 +1,7 @@
 package quicksort;
 
 /**
- * Created by xiangchao on 2020/2/5.
+ * Created by xiangchao on 2020/2/5 .
  */
 public class QuickSort {
     public static void quicksort(int[] data,int length,int start,int end){
