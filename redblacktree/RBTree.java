@@ -18,10 +18,11 @@ public class RBTree<K extends Comparable<K>,V> {
     private RBNode root;
 
     /**
+     *
      * @author chosen1
      * @date  获取当前节点的父节点
      * @param node
-     * @return
+     * @return 
     */
     private RBNode parentOf(RBNode node){
         if(node!=null){
