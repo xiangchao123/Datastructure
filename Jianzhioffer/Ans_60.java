@@ -49,7 +49,7 @@ public class Ans_60 {
             for(int i=0;i<curnumer;i++){
                 prob[1-flag][i]=0;//清零的目的是此时最小值从curnumber开始，清除小于curnumber的值
             }
-           for(int i=curnumer;i<curnumer*MAXVALUE;i++){
+           for(int i=curnumer;i<=curnumer*MAXVALUE;i++){
                for(int j=1;j<=6&&j<=i;j++){
                    prob[1-flag][i] += prob[flag][i-j];
                }
